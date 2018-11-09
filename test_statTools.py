@@ -16,3 +16,6 @@ def test_mean_decimal():
 def test_mean_illegal():
     assert(mean('Illegal Input') == 'None')
 
+def test_median_basic():
+    assert(median([1,2,3,4,5]) == 3)
+
