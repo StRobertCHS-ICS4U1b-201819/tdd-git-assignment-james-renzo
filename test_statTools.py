@@ -21,3 +21,7 @@ def test_median_basic():
 
 def test_median_zero():
     assert(median([0]) == 0)
+
+def test_median_unsortedAndDecimal():
+    assert(median([3.9,3.4,3.6,3.8,3.1]) == 3.6)
+
