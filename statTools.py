@@ -5,4 +5,6 @@ def mean(x):
         return round(sum(x) / len(x), 2)
 
 def median(x):
-    return 3
+    midLoc = (0 + len(x))//2
+    Avg = x[midLoc]
+    return Avg

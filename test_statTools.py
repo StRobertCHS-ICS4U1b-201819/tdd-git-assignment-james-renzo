@@ -19,3 +19,5 @@ def test_mean_illegal():
 def test_median_basic():
     assert(median([1,2,3,4,5]) == 3)
 
+def test_median_zero():
+    assert(median([0]) == 0)
