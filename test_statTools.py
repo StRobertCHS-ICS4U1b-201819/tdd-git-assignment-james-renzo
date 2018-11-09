@@ -1,6 +1,5 @@
-
 import pytest
 from statTools import *
 
-def variance(int):
-    int = x1, x2, x3, x4, x5;
+def test_variance_basic1():
+    assert(mean([3*2+4*2+5*2+6*2+7*2]))
