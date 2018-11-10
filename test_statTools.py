@@ -14,7 +14,13 @@ def test_mean_decimal():
     assert(mean([1.5, 1.2, 3.4, 5.6]) == 2.92)
 
 def test_mean_illegal():
-    assert(mean(["Illegal Input"]) == "None")
+    assert(mean("Illegal Input") == "None")
 
 def test_median_basic():
     assert(median([1,2,3,4,5]) == 3)
+
+def test_median_evenNumList():
+    assert(median([1,3,2,4]) == 3)
+
+def test_median_unSorted():
+    assert(median([1,5,2,4,3]) == 3)

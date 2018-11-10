@@ -1,8 +1,14 @@
 def mean(x):
-    if x == str:
-        return None
+    if x == str(x):
+        return "None"
     else:
         return round(sum(x) / len(x), 2)
 
 def median(x):
-    return 3
+    x.sort()
+    mid = (0 + len(x)) // 2
+    Avg = x[mid]
+    if len(x) % 2 == 0:
+        return x[Avg-1]
+    else:
+        return Avg
