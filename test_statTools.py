@@ -24,3 +24,14 @@ def test_median_evenNumList():
 
 def test_median_unSorted():
     assert(median([1,5,2,4,3]) == 3)
+
+def test_median_zero():
+    assert(median([0]) == 0)
+
+def test_median_decimalAndLong():
+    assert(median([3.1,3.2,3.3,3.4,3.6,3.7,3.8,3.9,4.0]) == 3.6)
+
+def test_mode_basic():
+    assert(mode([1,2,2,3,4]) == 2)
+
+

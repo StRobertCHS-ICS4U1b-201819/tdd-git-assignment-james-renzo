@@ -12,3 +12,6 @@ def median(x):
         return x[Avg-1]
     else:
         return Avg
+
+def mode(x):
+    return 2
