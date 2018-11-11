@@ -20,7 +20,7 @@ def test_median_basic():
     assert(median([1,2,3,4,5]) == 3)
 
 def test_median_evenNumList():
-    assert(median([1,3,2,4]) == 3)
+    assert(median([1,2,3,4]) == 2)
 
 def test_median_unSorted():
     assert(median([1,5,2,4,3]) == 3)

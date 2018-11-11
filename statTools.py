@@ -12,7 +12,7 @@ def median(x):
         mid = (0 + len(x)) // 2
         Avg = x[mid]
         if len(x) % 2 == 0:
-            return x[Avg-1]
+            return x[mid-1]
         else:
             return Avg
 
