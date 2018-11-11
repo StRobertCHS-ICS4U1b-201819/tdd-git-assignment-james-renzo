@@ -63,3 +63,7 @@ def test_range_illegal():
 
 def test_range_decimal():
     assert(range([1.2,1.3,1.1,1.4,1.5,1.6]) == 0.5)
+
+def test_range_zero():
+    assert(range([0]) == 0)
+
