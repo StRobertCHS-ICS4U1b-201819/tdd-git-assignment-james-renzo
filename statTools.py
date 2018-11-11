@@ -21,4 +21,6 @@ def mode(x):
         return Avg
 
 def range(x):
-    return 4
+    minNum = min(x)
+    maxNum = max(x)
+    return maxNum - minNum

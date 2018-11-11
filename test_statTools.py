@@ -54,3 +54,7 @@ def test_mode_illegal():
 
 def test_range_basic():
     assert(range([1,2,3,4,5]) == 4)
+
+def test_range_basic2():
+    assert(range([2,3,4,5,7]) == 5)
+
