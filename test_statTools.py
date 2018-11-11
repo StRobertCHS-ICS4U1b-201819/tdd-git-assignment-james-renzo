@@ -34,4 +34,9 @@ def test_median_decimalAndLong():
 def test_mode_basic():
     assert(mode([1,2,2,3,4]) == 2)
 
+def test_mode_basic2():
+    assert(mode([3,1,4,4,7])== 4)
+
+def test_mode_zero():
+    assert(mode([0]) == 0)
 
