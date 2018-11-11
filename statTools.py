@@ -14,5 +14,8 @@ def median(x):
         return Avg
 
 def mode(x):
-    Avg = max(set(x),key=x.count)
-    return Avg
+    if x == str(x):
+        return "None"
+    else:
+        Avg = max(set(x),key=x.count)
+        return Avg

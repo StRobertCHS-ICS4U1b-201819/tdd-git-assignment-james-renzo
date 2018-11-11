@@ -31,6 +31,9 @@ def test_median_zero():
 def test_median_decimalAndLong():
     assert(median([3.1,3.2,3.3,3.4,3.6,3.7,3.8,3.9,4.0]) == 3.6)
 
+def test_median_illegal():
+    assert(mean("Illegal Input") == "None")
+
 def test_mode_basic():
     assert(mode([1,2,2,3,4]) == 2)
 
@@ -46,3 +49,8 @@ def test_mode_multiMode():
 def test_mode_decimalAndLong():
     assert(mode([0.1,0.2,0.3,0.5,0.8,0.4,1.1,1.1,2.3,3.4,5.5,1.1]) == 1.1)
 
+def test_mode_illegal():
+    assert(mode("Illegal Input") == "None")
+
+def test_range_basic():
+    assert(range([]))
