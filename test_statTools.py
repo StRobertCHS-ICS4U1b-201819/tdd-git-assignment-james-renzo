@@ -40,3 +40,9 @@ def test_mode_basic2():
 def test_mode_zero():
     assert(mode([0]) == 0)
 
+def test_mode_multiMode():
+    assert(mode([0,1,1,2,2,3,4,5]) == 1)
+
+def test_mode_decimalAndLong():
+    assert(mode([0.1,0.2,0.3,0.5,0.8,0.4,1.1,1.1,2.3,3.4,5.5,1.1]) == 1.1)
+
