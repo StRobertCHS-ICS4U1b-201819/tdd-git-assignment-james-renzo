@@ -53,4 +53,4 @@ def test_mode_illegal():
     assert(mode("Illegal Input") == "None")
 
 def test_range_basic():
-    assert(range([]))
+    assert(range([1,2,3,4,5]) == 4)

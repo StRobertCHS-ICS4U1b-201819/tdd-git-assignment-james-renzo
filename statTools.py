@@ -19,3 +19,6 @@ def mode(x):
     else:
         Avg = max(set(x),key=x.count)
         return Avg
+
+def range(x):
+    return 4

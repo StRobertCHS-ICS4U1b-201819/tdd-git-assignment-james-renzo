@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a08f050f-e42a-4161-97ff-faf97e0fcd08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statTools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,7 @@
     <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_for_test_statTools_test_median_illegal.coverage" NAME="pytest for test_statTools.test_median_illegal Coverage Results" MODIFIED="1541956853839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_for_test_statTools_test_mean_bigLargeandDecimal.coverage" NAME="pytest for test_statTools.test_mean_bigLargeandDecimal Coverage Results" MODIFIED="1541603746287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_for_test_statTools_test_mode_decimalAndLong.coverage" NAME="pytest for test_statTools.test_mode_decimalAndLong Coverage Results" MODIFIED="1541956543424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_for_test_statTools_test_range_basic.coverage" NAME="pytest for test_statTools.test_range_basic Coverage Results" MODIFIED="1541957890209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_for_test_statTools_test_mean_illegal.coverage" NAME="pytest for test_statTools.test_mean_illegal Coverage Results" MODIFIED="1541956843227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_james_renzo$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541908119424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -69,12 +68,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="2481" />
-          <entry key="txt" value="634" />
+          <entry key="txt" value="896" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="634" />
+          <entry key="PLAIN_TEXT" value="896" />
           <entry key="Python" value="2481" />
         </counts>
       </usages-collector>
@@ -173,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_mode_illegal">
+  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_range_basic">
     <configuration name="pytest for test_statTools.test_mean_illegal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-james-renzo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +237,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_statTools.test_mode_multiMode" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_statTools.test_range_basic" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-james-renzo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,24 +249,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mode_multiMode&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.test_range_basic&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_statTools.test_mode_multiMode" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mode_decimalAndLong" />
       <item itemvalue="Python tests.pytest for test_statTools.test_median_illegal" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mean_illegal" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mode_illegal" />
+      <item itemvalue="Python tests.pytest for test_statTools.test_range_basic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_statTools.test_range_basic" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mode_illegal" />
         <item itemvalue="Python tests.pytest for test_statTools.test_median_illegal" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mean_illegal" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mode_decimalAndLong" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mode_multiMode" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541956756844</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Forgot to implement &quot;illegal&quot; parameter tests for both mode and median. Adjusted mode code so that it can take in illegal parameter, didn't have to change median code however. Now, moving on to the final function, range.">
+      <created>1541957662411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541957662412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -383,7 +389,8 @@
     <MESSAGE value="Complete first test of &quot;mode&quot; function. Very simple code just to pass the first test." />
     <MESSAGE value="Complete second and third test of &quot;mode&quot; function. Greatly made my &quot;mean&quot; code more sophisticated and able to handle a lot more parameters. More testing inc." />
     <MESSAGE value="Complete fourth and fifth test of &quot;mode&quot; function. Confident in my code for this function, now moving on to range function, the final function I have to do." />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete fourth and fifth test of &quot;mode&quot; function. Confident in my code for this function, now moving on to range function, the final function I have to do." />
+    <MESSAGE value="Forgot to implement &quot;illegal&quot; parameter tests for both mode and median. Adjusted mode code so that it can take in illegal parameter, didn't have to change median code however. Now, moving on to the final function, range." />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to implement &quot;illegal&quot; parameter tests for both mode and median. Adjusted mode code so that it can take in illegal parameter, didn't have to change median code however. Now, moving on to the final function, range." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/statTools.py">
