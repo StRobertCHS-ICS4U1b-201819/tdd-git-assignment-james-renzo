@@ -10,6 +10,9 @@ def test_range_basic0():
 def test_range_basic1():
     assert(range([0]) == 0)
 
+def test_range_basic2():
+    assert(range([9, 4, 2, 5, 10]) == 10)
+    
 def test_range_basic_large3():
     assert(range([80, 90, 100, 190]) == 190)
 
