@@ -43,4 +43,17 @@ def lowerQuartile(List):
         for r in range(len(List)):
             sum += List[r]
             medi = sum[len(sum)//2:]
-            
+            quar = medi / 2
+            quarlow = quar
+        return quarlow
+def higherQuartile(List):
+    if len(List) == 0:
+        return 0
+    else:
+        sum = 0
+        for r in range(len(List)):
+            sum += List[r]
+            medi = sum[len(sum)//2:]            
+            quar = medi / 2
+            quarlow = quar
+        return quarlow     
