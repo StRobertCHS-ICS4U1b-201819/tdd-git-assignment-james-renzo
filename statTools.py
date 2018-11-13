@@ -1,11 +1,13 @@
-def mean(myList):
+def variance(myList):
    if len(myList) == 0:
       return 0
    else:
       sum = 0
       for i in range(len(myList)):
          sum += myList[i]
-      avg = sum / len(myList)
+         vari = myList[i**2]
+         answer = vari + myList[i**2]
+      avg = answer / len(myList)
       return avg
 
 def range(theList):
@@ -33,12 +35,12 @@ def deviant(myList):
       avg = sqrt
       return avg
 
-def quartile(List):
+def lowerQuartile(List):
     if len(List) == 0:
         return 0
     else:
         sum = 0
         for r in range(len(List)):
             sum += List[r]
-            medi = sum / 2
-            quar = medi / 2
+            medi = sum[len(sum)//2:]
+            
